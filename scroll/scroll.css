@@ -1,0 +1,32 @@
+.hero-right-section {
+
+  /* padding: 100px 80px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* gap: 30px; */
+  /* scroll */
+  width: 950px;
+  height: 100vh;
+  /* height: 600px; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  gap: 20px;
+  padding-top: 59px;
+}
+
+.hero-right-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.hero-right-section::-webkit-scrollbar-track {
+  background-color: var(--mainbg);
+}
+
+.hero-right-section::-webkit-scrollbar-thumb {
+  background-color: var(--scroll);
+  border-radius: 8px 8px 8px 8px;
+  border: 5px solid transparent;
+}
