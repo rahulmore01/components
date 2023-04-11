@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    /* background-color: #FEFCFB; */
+    color: #f6fdfe;
+background-color: #010e16;
+    /*color: rgb(230, 234, 237); */
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+
+}
+.heading{
+    font-size: 30px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 60px 40px 0 40px;
+    text-align: center;
+}
+.cards {
+    /* width: 1200px; */
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+}
+
+.card {
+    background-color: #034078;
+    /* background-color: #1282A2; */
+    border-radius: 20px;
+transition: 0.3s;
+
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.details {
+    padding: 10px 10px 20px 10px;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 300px;
+    margin: 15px 0 10px 0;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(192, 199, 203);
+    font-weight: 200px;
+}
+
+.container {
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+}
